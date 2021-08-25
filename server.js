@@ -2,7 +2,7 @@ const http = require('http')
 const express = require("express")
 const app = express()
 const cors = require('cors')
-const port = 8000
+const port = 3000
 
 const db = require("./models")
 const Form = db.form
